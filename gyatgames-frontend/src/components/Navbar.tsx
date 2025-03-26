@@ -27,7 +27,7 @@ interface RouteProps {
 const routeList: RouteProps[] = [
   {
     to: "/gyatword",
-    label: "Gyatword",
+    label: "WordLah",
   },
   {
     to: "/leaderboard",
@@ -58,7 +58,7 @@ export const Navbar = () => {
               to="/"
               className="ml-2 font-bold text-xl flex no-underline hover:text-blue-500 "
             >
-              Gyatword
+              WordLah
             </Link>
           </NavigationMenuItem>
 
@@ -115,7 +115,7 @@ export const Navbar = () => {
               <Link
                 key={i}
                 to={to}
-                className={`text-[17px] ${buttonVariants({ variant: "ghost" })}`}
+                className={`text-[45px] ${buttonVariants({ variant: "ghost" })}`}
               >
                 {label}
               </Link>

@@ -257,7 +257,7 @@ async def getGyatword():
         .execute()
     )
 
-    if response.data:
+    if False:
         return response.data[0]["data"]
     else:
         result = generateGyatword()

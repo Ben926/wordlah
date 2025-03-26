@@ -41,6 +41,7 @@ export function useDarkMode() {
 
 const lightTheme = {
   gridBackground: "#f0f0f0",
+  allowNonSquare: true,
   cellBackground: "#fff",
   cellBorder: "#D6D6D6",
   textColor: "#000",
@@ -51,6 +52,7 @@ const lightTheme = {
 
 const darkTheme = {
   gridBackground: "#333",
+  allowNonSquare: true,
   cellBackground: "#6f6e70",
   cellBorder: "#656666",
   textColor: "#FFF",

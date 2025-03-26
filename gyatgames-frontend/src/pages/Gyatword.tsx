@@ -195,7 +195,7 @@ export const Gyatword = () => {
                 useStorage={false}
             >
                 <div className="w-screen h-fit max-h-screen-minus-57 no-scrollbar overflow-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-                    <div className="flex flex-row gap-x-6 items-center mx-auto justify-center py-0.5 md:py-2 bg-background border-b-2">
+                    <div className="flex flex-row gap-x-20 items-center mx-auto text-4xl justify-center py-0.5 md:py-2 bg-background border-b-2">
                         <Stopwatch
                             ref={stopwatchRef}
                             running={isRunning}
@@ -207,7 +207,7 @@ export const Gyatword = () => {
                             target="_blank"
                             rel="noreferrer noopener"
                             onClick={resetProvider}
-                            className={`cursor-pointer text-xs h-6 md:h-10 md:text-sm w-16 ${buttonVariants({
+                            className={`cursor-pointer h-6 md:h-10 md:text-sm w-16 ${buttonVariants({
                                 variant: "destructive",
                             })}`
                             }
@@ -217,7 +217,7 @@ export const Gyatword = () => {
 
                         <DropdownMenu>
                             <DropdownMenuTrigger
-                                className={`cursor-pointer text-xs h-6 md:h-10 md:text-sm w-16 ${buttonVariants({
+                                className={`cursor-pointer h-6 md:h-10 md:text-sm w-16 ${buttonVariants({
                                     variant: "outline",
                                 })}`}
                             >
@@ -274,7 +274,7 @@ export const Gyatword = () => {
                         {isMobile ? (
                             <MobileClueDisplay />
                         ) : (
-                            <div className="h-fit max-h-grid overflow-hidden flex flex-col gap-y-5 bg-secondary px-4 md:px-1 border-4">
+                            <div className="h-fit max-h-grid overflow-scroll flex flex-col gap-y-5 bg-secondary px-4 md:px-1 border-4 text-4xl">
                                 <DirectionClues
                                     direction="across"
                                     className="clue correct"
