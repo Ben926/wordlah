@@ -1,6 +1,6 @@
-# Gyatword
+# Wordlah
 
-**Gyatword** is an engaging crossword puzzle game that challenges your knowledge of brainrot vocabulary. Developed collaboratively by a team of four passionate developers in a short span of 24 hours ([NUS Hacknroll](https://hacknroll.nushackers.org)), Gyatword aims to provide users with an exciting and challenging word game experience.
+**Wordlah** is an engaging crossword puzzle game that challenges your knowledge of brainrot vocabulary. Developed collaboratively by a team of four passionate developers in a short span of 24 hours ([NUS Hacknroll](https://hacknroll.nushackers.org)), Wordlah aims to provide users with an exciting and challenging word game experience.
 
 ---
 
@@ -13,7 +13,7 @@
 
 ## Try it out
 
-Visit the website at [gyatword.com](https://gyatword.com)
+Visit the website at [wordlah.com](https://wordlah.com)
 
 ---
 
@@ -31,6 +31,6 @@ Our amazing development team:
 ---
 ## Contact Us
 
-For any questions or feedback, feel free to reach out via our GitHub profiles or LinkedIn!
+For any questions or feedback, feel free to reach out via our GitHub wl_profiles or LinkedIn!
 
 ---
