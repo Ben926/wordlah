@@ -16,17 +16,7 @@ RUN bash -o vi
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY main.py /app
-
-COPY generator.jar /app
-
-COPY requirements.txt /app
-
-COPY generateWordlah.py /app
-
-COPY client.py /app
-
-COPY heroku.yml /app
+COPY . .
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
