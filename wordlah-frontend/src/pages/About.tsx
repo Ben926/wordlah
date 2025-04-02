@@ -24,7 +24,7 @@ export const About = () => {
                 image="/david.jpg"
                 github="https://github.com/davidchanwz"
                 linkedin="https://www.linkedin.com/in/davidchanwz/"
-                description="I love gyat."
+                description="I love Singapore."
               />
               <TeamCard
                 name="Aayush Sharma"
@@ -32,7 +32,7 @@ export const About = () => {
                 image="/aayush.jpg"
                 github="https://github.com/ahhyush"
                 linkedin="https://www.linkedin.com/in/aayush-sharma-329321208/"
-                description="I really love gyat."
+                description="I really love Singapore."
               />
               <TeamCard
                 name="Jensen Huang"
@@ -40,7 +40,7 @@ export const About = () => {
                 image="/jensen.jpg"
                 github="https://github.com/jensenhuangyankai"
                 linkedin="https://www.linkedin.com/in/jensenhyk/"
-                description="I really really love gyat."
+                description="I really really love Singapore."
               />
               <TeamCard
                 name="Benjamin Koh"
@@ -48,7 +48,7 @@ export const About = () => {
                 image="/ben.jpg"
                 github="https://github.com/Ben926"
                 linkedin="https://www.linkedin.com/in/benjaminkoh926/"
-                description="I really really really love gyat."
+                description="I really really really love Singapore."
               />
             </div>
           </div>

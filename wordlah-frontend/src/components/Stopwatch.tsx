@@ -48,7 +48,7 @@ const Stopwatch = forwardRef<StopwatchRef, StopwatchProps>(({ running, onComplet
         return `${minutes}:${seconds}`;
     };
 
-    return <div className="px-2 w-14">{formatTime(elapsedTime)}</div>;
+    return <div className="pr-24 sm:px-16 w-14">{formatTime(elapsedTime)}</div>;
 });
 
 export default Stopwatch;

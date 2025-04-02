@@ -2,51 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *=========== Blue theme =========== */
+/* *=========== Red theme =========== */
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --foreground: 0 10% 3.9%;
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card-foreground: 0 10% 3.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 220 50% 70%; /* Lighter and duller primary blue */
-    --primary-foreground: 220 80% 96%;
-    --secondary: 220 20% 90%; /* Lighter and duller secondary blue */
-    --secondary-foreground: 220 10% 20%;
-    --muted: 220 15% 92%; /* Muted dull blue */
-    --muted-foreground: 220 10% 40%;
-    --accent: 220 15% 90%; /* Duller and lighter accent */
-    --accent-foreground: 220 10% 20%;
+    --popover-foreground: 0 10% 3.9%;
+    --primary: 0 50% 70%; /* Lighter and duller primary red */
+    --primary-foreground: 0 80% 96%;
+    --secondary: 0 20% 90%; /* Lighter and duller secondary red */
+    --secondary-foreground: 0 10% 20%;
+    --muted: 0 15% 92%; /* Muted dull red */
+    --muted-foreground: 0 10% 40%;
+    --accent: 0 15% 90%; /* Duller and lighter accent */
+    --accent-foreground: 0 10% 20%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 15% 88%; /* Duller and lighter border */
-    --input: 220 15% 88%; /* Duller and lighter input */
-    --ring: 220 50% 70%; /* Duller and lighter ring */
+    --border: 0 15% 88%; /* Duller and lighter border */
+    --input: 0 15% 88%; /* Duller and lighter input */
+    --ring: 0 50% 70%; /* Duller and lighter ring */
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 220 14.3% 15%; /* Slightly brighter dark background */
+    --background: 0 14.3% 15%; /* Slightly brighter dark background */
     --foreground: 0 0% 95%;
-    --card: 224 9.8% 20%; /* Brighter dark card */
+    --card: 0 9.8% 20%; /* Brighter dark card */
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 15%;
     --popover-foreground: 0 0% 95%;
-    --primary: 220 40% 60%; /* Duller and lighter primary blue for dark mode */
-    --primary-foreground: 220 50% 15%;
-    --secondary: 220 15% 30%; /* Duller and lighter secondary blue */
+    --primary: 0 40% 60%; /* Duller and lighter primary red for dark mode */
+    --primary-foreground: 0 50% 15%;
+    --secondary: 0 15% 30%; /* Duller and lighter secondary red */
     --secondary-foreground: 0 0% 95%;
-    --muted: 220 15% 25%; /* Muted dull dark blue */
-    --muted-foreground: 220 10% 70%; /* Duller muted foreground */
-    --accent: 220 15% 25%; /* Duller and lighter dark accent */
+    --muted: 0 15% 25%; /* Muted dull dark red */
+    --muted-foreground: 0 10% 70%;
+    --accent: 0 15% 25%; /* Duller and lighter dark accent */
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 35%;
     --destructive-foreground: 0 85.7% 97.3%;
-    --border: 220 15% 25%; /* Duller and lighter border */
-    --input: 220 15% 25%; /* Duller and lighter input */
-    --ring: 220 40% 50%; /* Duller and lighter ring */
+    --border: 0 15% 25%; /* Duller and lighter border */
+    --input: 0 15% 25%; /* Duller and lighter input */
+    --ring: 0 40% 50%; /* Duller and lighter ring */
   }
 }
 /* Add styles for react-simple-keyboard here */

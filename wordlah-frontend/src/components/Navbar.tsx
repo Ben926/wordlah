@@ -29,10 +29,10 @@ const routeList: RouteProps[] = [
     to: "/wordlah",
     label: "WordLah",
   },
-  {
-    to: "/leaderboard",
-    label: "Leaderboard",
-  },
+  // {
+  //   to: "/leaderboard",
+  //   label: "Leaderboard",
+  // },
   {
     to: "/about",
     label: "About",
@@ -58,14 +58,17 @@ export const Navbar = () => {
               to="/"
               className="ml-2 font-bold text-xl flex no-underline hover:text-blue-500 "
             >
-              WordLah
-            </Link>
+              <img
+                src="/logo-big.png"
+                alt="WordLah Logo"
+                className="h-8 w-auto mr-2"
+              />            </Link>
           </NavigationMenuItem>
 
           {/* Mobile */}
           <span className="flex md:hidden justify-between">
             <ModeToggle />
-            <Profile />
+            {/* <Profile /> */}
 
 
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -137,7 +140,7 @@ export const Navbar = () => {
             </a>
 
             <ModeToggle />
-            <Profile />
+            {/* <Profile /> */}
 
           </div>
         </NavigationMenuList>

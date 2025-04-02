@@ -28,7 +28,7 @@ export const PopInfo = () => {
     };
 
     return (
-        <Button className="cursor-pointer text-xs h-6 md:h-10 md:text-sm w-16" variant="outline" onClick={showPopup}>
+        <Button className="cursor-pointer text-xs h-6 md:h-10 md:text-xl w-16" variant="outline" onClick={showPopup}>
             Rules
         </Button>
     );
